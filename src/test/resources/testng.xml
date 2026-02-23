@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InsurEdge Parallel Suite" parallel="classes" thread-count="6">
+
+    <test name="Sprint 2 - 22 Task Validation Suite">
+        <classes>
+            <class name="tests.MainCategoryTest"/>
+            <class name="tests.SubCategoryTest"/>
+            <class name="tests.GlobalDeletionTest"/>
+        </classes>
+    </test>
+
+</suite>
